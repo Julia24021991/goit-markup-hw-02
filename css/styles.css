@@ -41,7 +41,7 @@ body {
     text-decoration: none;
 }
 
-link-logo {
+.link-logo {
     text-decoration: none
 }
 
@@ -51,10 +51,10 @@ link-logo {
 
 
 .list {
-    list-style: none
+    list-style: none;
 }
 
-.link-item {
+.list-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -62,15 +62,15 @@ link-logo {
     color: var(--link-item)
 }
 
-.link-list-item {
+.link {
     text-decoration: none;
 }
 
-.link-list-item:hover {
+.link:hover {
     color: #404bbf
 }
 
-.link-list-item:focus {
+.link:focus {
     color: #404bbf;
 }
 
@@ -93,11 +93,7 @@ ul {
 
 /* adress */
 .address {
-    font-style: normal
-}
-
-.list-address {
-    list-style: none;
+    font-style: normal;
     color: var(--list-address);
 }
 
