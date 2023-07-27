@@ -11,43 +11,22 @@ body {
     color: #434455;
 }
 
+.link {
+    text-decoration: none;
+}
+
 :root {
     --logo-color: #4d5ae5;
     --logo-text-color: #2E2F42;
     --link-item: #2E2F42;
     --list-item: #2e2f42;
-}
-
-.link {
-    text-decoration: none;
-
-}
-
-.list-item-link:hover {
-    color: #404bbf
-}
-
-.list-item-link:focus {
-    color: #404bbf
-}
-
-.link-item {
-
-    font-weight: 500;
-    font-size: 16px line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--link-item)
-}
-
-.list-nav {
-    list-style: none
-}
-
-ul {
-    list-style-type: none;
+    --list-address: #434455;
+    --list-item-title-feature: #2E2F42;
 }
 
 /* Header */
+
+/* Menu Nav */
 
 /* Logo WebStudio */
 .logo {
@@ -59,13 +38,41 @@ ul {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     line-height: 1.17;
+    text-decoration: none;
 }
 
 .logo-text {
     color: var(--logo-text-color);
 }
 
-/* Menu Nav */
+
+.list-nav {
+    list-style: none
+}
+
+.link-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-item)
+}
+
+.link-list-item {
+    text-decoration: none;
+}
+
+.link-list-item:hover {
+    color: #404bbf
+}
+
+.link-list-item:focus {
+    color: #404bbf;
+}
+
+ul {
+    list-style-type: none;
+}
 
 .list-nav {
     list-style: none;
@@ -79,20 +86,15 @@ ul {
     color: var(--list-item)
 }
 
-.list-item-link {
-    text-decoration: none
+
+/* adress */
+.address {
+    font-style: normal
 }
 
-.list a {
-    font-weight: 500;
-    color: var(--navyblue, #2E2F42)
-}
-
-/* Adressa */
-
-.contacts-list a {
-    color: var(--slate, #434455);
-    font-style: normal;
+.list-address {
+    list-style: none;
+    color: var(--list-address);
 }
 
 /* Main */
@@ -113,17 +115,31 @@ ul {
 }
 
 .hero-title {
-    color: var(--white, #FFF);
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFF;
     text-align: center;
 }
 
 .hero-button-text {
-    color: var(--white, #FFF);
+    font-family: "Roboto", sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     font-weight: 500;
-    letter-spacing: 0.64px;
     background: var(--iris, #4D5AE5);
-
     text-align: center;
+    cursor: pointer;
+}
+
+.hero-button-text:hover {
+    color: #404bbf
+}
+
+.hero-button-text:focus {
+    color: #404bbf
 }
 
 /* Section 2 (Features)*/
@@ -140,11 +156,21 @@ ul {
     background: #FFF;
 }
 
-.feature h3 {
-    color: var(--navyblue, #2E2F42);
+.list-feature {
+    list-style: none;
+}
+
+.list-item-title-feature {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--list-item-title-feature)
 }
 
 .feature-list-discription {
+    font-size: 16px;
+    line-height: 1.5;
     color: var(--slate, #434455);
 
 }
