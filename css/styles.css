@@ -15,10 +15,20 @@ body {
     --logo-color: #4d5ae5;
     --logo-text-color: #2E2F42;
     --link-item: #2E2F42;
+    --list-item: #2e2f42;
 }
 
 .link {
     text-decoration: none;
+
+}
+
+.list-item-link:hover {
+    color: #404bbf
+}
+
+.list-item-link:focus {
+    color: #404bbf
 }
 
 .link-item {
@@ -57,8 +67,20 @@ ul {
 
 /* Menu Nav */
 
-.list {
+.list-nav {
     list-style: none;
+}
+
+.list-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--list-item)
+}
+
+.list-item-link {
+    text-decoration: none
 }
 
 .list a {
