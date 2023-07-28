@@ -16,7 +16,7 @@ body {
 }
 
 :root {
-    --logo-color: #4d5ae5;
+    --link-logo: #4d5ae5;
     --logo-text-color: #2E2F42;
     --link-item: #2E2F42;
     --list-item: #2e2f42;
@@ -24,6 +24,10 @@ body {
     --list-item-title-feature: #2E2F42;
     --footer-logo-text: #4D5AE5;
     --footer-link: #4d5ae5;
+    --filter-button: #4D5AE5;
+    --filter-background: #F4F4FD;
+    --row-list-item: #2e2f42;
+    --row-list-des: #434455;
 }
 
 /* Header */
@@ -31,8 +35,8 @@ body {
 /* Menu Nav */
 
 /* Logo WebStudio */
-.link-logo {
-    color: var(--logo-color);
+nav>.link-logo {
+    color: var(--link-logo);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -40,10 +44,6 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     line-height: 1.17;
-    text-decoration: none;
-}
-
-.link-logo {
     text-decoration: none
 }
 
@@ -204,9 +204,10 @@ ul {
 .projects-title {
     color: var(--navyblue, #2E2F42);
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+
 
 }
 
@@ -221,7 +222,7 @@ ul {
     color: var(--navyblue, #2E2F42);
     text-align: center;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 
 }
@@ -245,6 +246,7 @@ ul {
     color: var(--slate, #434455);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -255,11 +257,10 @@ ul {
     font-style: normal;
     font-size: 18px;
     font-weight: 800;
-    line-height: 21px;
-    /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
     background: var(--navyblue, #2E2F42);
+    line-height: 1.17;
 }
 
 .footer-link {
@@ -288,44 +289,51 @@ ul {
 /* Page (Portfolio)*/
 /* Main */
 /* Sectin menu filters */
-.filter {}
 
 .filter-button {
-    color: var(--iris, #4D5AE5);
+    color: var(--filter-button);
+    background-color: var(--filter-background);
     text-align: center;
     font-family: "Roboto",
         sans-serif;
     font-size: 16px;
     font-style: normal;
     letter-spacing: 0.64px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.filter-button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 /* Sectin rows */
-.row {
-    font-family: "Roboto",
-        sans-serif;
+.row-link {}
+
+main>section>ul>img {
+    width: 360;
+
+}
+
+.row-list-item: {
+    weight: 500;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    /* 120% */
-    letter-spacing: 0.4px;
-}
-
-
-.row-list {
-    background: var(--white, #FFF);
-}
-
-.row-list-item {
-    color: var(--navyblue, #2E2F42);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--row-list-item)
 }
 
 .row-list-descreption {
-    color: var(--slate, #434455);
+    color: var(--row-list-des);
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
