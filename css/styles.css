@@ -317,17 +317,12 @@ ul {
 /* Sectin rows */
 .row-link {}
 
-main>section>ul>img {
-    width: 360;
-
-}
-
-.row-list-item: {
+.row-list-item {
     weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--row-list-item)
+    color: var(--row-list-item) text-decoration: none;
 }
 
 .row-list-descreption {
