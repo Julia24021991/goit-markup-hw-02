@@ -22,6 +22,8 @@ body {
     --list-item: #2e2f42;
     --list-address: #434455;
     --list-item-title-feature: #2E2F42;
+    --footer-logo-text: #4D5AE5;
+    --footer-link: #4d5ae5;
 }
 
 /* Header */
@@ -59,11 +61,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--link-item)
 }
 
 .link {
     text-decoration: none;
+    color: var(--link-item)
 }
 
 .link:hover {
@@ -94,7 +96,19 @@ ul {
 /* adress */
 .address {
     font-style: normal;
+}
+
+.link-address {
     color: var(--list-address);
+    text-decoration: none;
+}
+
+.link-address:hover {
+    color: #404bbf
+}
+
+.link-address:focus {
+    color: #404bbf
 }
 
 /* Main */
@@ -135,11 +149,11 @@ ul {
 }
 
 .hero-button-text:hover {
-    color: #404bbf
+    background-color: #404bbf
 }
 
 .hero-button-text:focus {
-    color: #404bbf
+    background-color: #404bbf
 }
 
 /* Section 2 (Features)*/
@@ -156,10 +170,6 @@ ul {
     background: #FFF;
 }
 
-.list-feature {
-    list-style: none;
-}
-
 .list-item-title-feature {
     font-weight: 500;
     font-size: 20px;
@@ -171,6 +181,7 @@ ul {
 .feature-list-discription {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--slate, #434455);
 
 }
@@ -179,7 +190,6 @@ ul {
 .projects {
     font-family: "Roboto",
         sans-serif;
-    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -193,6 +203,11 @@ ul {
 
 .projects-title {
     color: var(--navyblue, #2E2F42);
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+
 }
 
 
@@ -205,6 +220,9 @@ ul {
 .team-title {
     color: var(--navyblue, #2E2F42);
     text-align: center;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 
 }
 
@@ -216,11 +234,17 @@ ul {
 
 .team-list-item {
     color: var(--navyblue, #2E2F42);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 
 }
 
 .team-list-description {
     color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Footer */
@@ -239,11 +263,13 @@ ul {
 }
 
 .footer-link {
-    color: var(--cloud, #F4F4FD);
+    color: var(--footer-link);
 }
 
 .fotter-logo-text {
-    color: var(--iris, #4D5AE5);
+    color: var(--fotter-logo-text);
+    line-height: 1.17;
+    color: #f4f4fd;
 }
 
 .footer-description {
