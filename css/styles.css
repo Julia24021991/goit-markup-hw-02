@@ -148,12 +148,12 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.018em;
     text-transform: capitalize;
-    text-align: center;
 }
 
 .projects-title {
     color: var(--navyblue, #2E2F42);
     font-size: 36px;
+    text-align: center;
 }
 
 
