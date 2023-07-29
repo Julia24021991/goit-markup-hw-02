@@ -73,10 +73,12 @@ ul {
 }
 
 /* adress */
+.address {
+    font-style: normal;
+}
 
 .link-address {
     color: var(--list-address);
-    font-style: normal;
 }
 
 
@@ -90,6 +92,8 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     background: var(--navyblue, #2E2F42);
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero-title {
@@ -97,7 +101,11 @@ ul {
     color: #FFF;
 }
 
-.hero-button-text {
+.hero-button-text,
+.filter-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
     color: #FFF;
     letter-spacing: 0.04em;
     font-weight: 500;
@@ -120,13 +128,18 @@ ul {
 
 
 .list-item-title-feature {
-    color: var(--list-item-title-feature)
+    color: var(--list-item-title-feature);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .feature-list-discription {
     color: var(--slate, #434455);
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 /* Section 3 (Projects) */
@@ -135,6 +148,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.018em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .projects-title {
@@ -147,18 +161,19 @@ ul {
 
 .team {
     background: var(--cloud, #F4F4FD);
-
 }
 
 .team-title {
     color: var(--navyblue, #2E2F42);
+    font-weight: 700;
     font-size: 36px;
-
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1.11;
 }
 
 .team-list {
     background: var(--white, #FFF);
-
 }
 
 .team-list-item {
@@ -166,13 +181,15 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .team-list-description {
     color: var(--slate, #434455);
     font-weight: 400;
     font-size: 16px;
-
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -189,6 +206,7 @@ ul {
     font-weight: 800;
     letter-spacing: 0.03em;
     line-height: 1.17;
+    text-transform: uppercase;
 }
 
 .fotter-logo-text {
@@ -212,10 +230,6 @@ ul {
     color: var(--filter-button);
     background-color: var(--filter-background);
     text-align: center;
-    letter-spacing: 0.04em;
-    font-weight: 500;
-
-    cursor: pointer;
 }
 
 .filter-button:hover,
@@ -231,6 +245,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     color: var(--row-list-item);
+    letter-spacing: 0.02em;
 }
 
 .row-list-descreption {
