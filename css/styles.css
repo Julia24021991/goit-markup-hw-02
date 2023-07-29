@@ -125,6 +125,8 @@ ul {
 
 .feature-list-discription {
     color: var(--slate, #434455);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* Section 3 (Projects) */
@@ -168,6 +170,9 @@ ul {
 
 .team-list-description {
     color: var(--slate, #434455);
+    font-weight: 400;
+    font-size: 16px;
+
 }
 
 /* Footer */
