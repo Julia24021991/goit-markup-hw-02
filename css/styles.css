@@ -168,6 +168,7 @@ ul {
     text-align: center;
     text-transform: capitalize;
     line-height: 1.11;
+    letter-spacing: 0.02em;
 }
 
 .team-list {
