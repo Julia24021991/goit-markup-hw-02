@@ -143,15 +143,13 @@ ul {
 }
 
 /* Section 3 (Projects) */
-.projects {
+
+.projects-title {
+    color: var(--navyblue, #2E2F42);
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.018em;
     text-transform: capitalize;
-}
-
-.projects-title {
-    color: var(--navyblue, #2E2F42);
     font-size: 36px;
     text-align: center;
 }
